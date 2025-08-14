@@ -36,6 +36,7 @@ public class ProductController {
             @RequestParam("category") String category,
             @RequestParam("price") double price) {
 
+        
         try {
             // Generate unique file name
             String fileName = UUID.randomUUID() + "_" + file.getOriginalFilename();
