@@ -12,7 +12,7 @@ public class Product {
     private String category;
     private double price;
     private String imagePath; // Store local file path
-
+    
     // Getters and Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
