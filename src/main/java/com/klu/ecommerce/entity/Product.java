@@ -2,6 +2,7 @@ package com.klu.ecommerce.entity;
 
 import javax.persistence.*;
 
+
 @Entity
 @Table(name = "products")
 public class Product {
