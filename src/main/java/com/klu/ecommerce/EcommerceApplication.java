@@ -18,4 +18,3 @@ public class EcommerceApplication extends SpringBootServletInitializer {
     }
 }
 
-
