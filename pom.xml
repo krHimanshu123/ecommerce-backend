@@ -15,7 +15,6 @@
   <artifactId>ecommerce</artifactId>
   <version>1.0.0</version>
   <packaging>war</packaging>
-
   <name>ecommerce</name>
   <description>E-commerce Backend for Deployment</description>
 
