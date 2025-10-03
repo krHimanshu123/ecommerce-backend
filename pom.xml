@@ -10,7 +10,6 @@
     <version>2.7.18</version>
     <relativePath/>
   </parent>
-
   <groupId>com.klu</groupId>
   <artifactId>ecommerce</artifactId>
   <version>1.0.0</version>
