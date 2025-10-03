@@ -8,7 +8,6 @@ import java.util.Date;
 public class JwtUtil {
     private static final String SECRET_KEY = "your-very-secret-key-your-very-secret-key";
     private static final long EXPIRATION_TIME = 86400000; // 1 day
-
     private Key getSigningKey() {
         return Keys.hmacShaKeyFor(SECRET_KEY.getBytes());
     }
