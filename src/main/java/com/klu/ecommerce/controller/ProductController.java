@@ -27,6 +27,7 @@ public class ProductController {
     public ProductController(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
+    
     // 📌 Upload product with image
     @PostMapping("/upload")
     public ResponseEntity<String> uploadProductImage(
