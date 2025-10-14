@@ -73,6 +73,7 @@ public class ProductController {
         return productRepository.findByCategory(category);
     }
 
+    
     // 📌 Serve image files
     @GetMapping("/images/{fileName}")
     public ResponseEntity<Resource> getImage(@PathVariable String fileName) {
