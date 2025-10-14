@@ -22,6 +22,7 @@ public class AuthController {
         return ResponseEntity.ok(userService.registerUser(username, email, password));
     }
 
+    
     @PostMapping("/login")
     public ResponseEntity<String> loginUser(@RequestBody Map<String, String> request) {
         String username = request.get("username");
