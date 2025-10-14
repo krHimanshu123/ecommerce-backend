@@ -13,6 +13,7 @@ public class AuthController {
     public AuthController(UserService userService) {
         this.userService = userService;
     }
+
     
     @PostMapping("/signup")
     public ResponseEntity<String> registerUser(@RequestBody Map<String, String> request) {
