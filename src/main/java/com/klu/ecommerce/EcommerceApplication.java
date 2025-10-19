@@ -15,6 +15,7 @@ public class EcommerceApplication extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         return builder.sources(EcommerceApplication.class);
+        
     }
 }
 
