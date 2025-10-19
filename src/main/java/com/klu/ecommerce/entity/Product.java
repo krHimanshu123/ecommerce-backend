@@ -29,6 +29,7 @@ public class Product {
     public void setPrice(double price) { this.price = price; }
 
     public String getImagePath() { return imagePath; }
+    
     public void setImagePath(String imagePath) { this.imagePath = imagePath; }
 }
 
