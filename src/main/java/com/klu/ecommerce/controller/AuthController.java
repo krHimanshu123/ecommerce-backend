@@ -30,6 +30,7 @@ public class AuthController {
         String username = request.get("username");
         String password = request.get("password");
         return ResponseEntity.ok(userService.loginUser(username, password));
+        
     }
 }
 
