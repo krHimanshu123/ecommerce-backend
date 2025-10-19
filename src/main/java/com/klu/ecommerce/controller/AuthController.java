@@ -21,6 +21,7 @@ public class AuthController {
         String email = request.get("email");
         String password = request.get("password");
         return ResponseEntity.ok(userService.registerUser(username, email, password));
+        
     }
 
     
