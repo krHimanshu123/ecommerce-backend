@@ -89,6 +89,7 @@ public class ProductController {
             } else {
                 return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
             }
+            
         } catch (MalformedURLException e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
         }
